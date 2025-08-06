@@ -10,317 +10,129 @@
 
 **Professional Discord webhook management system with modern GUI interface**
 
-[🌐 **Visit Official Website**](https://driizzyy.github.io/Webhook-Creator-Website/) | [📦 Download Latest Release](https://github.com/driizzyy/Webhook-Creator/releases/latest) | [📚 Documentation](#documentation) | [🐛 Report Bug](https://github.com/driizzyy/Webhook-Creator/issues)
+[🌐 **Visit Official Website**](https://driizzyy.github.io/Webhook-Creator-Website/) | [� **Complete Documentation**](https://driizzyy.github.io/Webhook-Creator-Website/docs.html) | [� **Download Latest Release**](https://github.com/driizzyy/Webhook-Creator/releases/latest)
 
 </div>
 
 ---
 
-## 🌟 Features Overview
+## ⚡ Quick Overview
 
-Discord Webhook Creator Pro is a **feature-rich, professional-grade application** designed for seamless Discord webhook management. Built with modern Python technologies and a sleek GUI interface, it offers everything you need for efficient Discord communication automation.
+**Discord Webhook Creator Pro** is a professional-grade application designed for seamless Discord webhook management. Built with modern Python technologies, it offers everything you need for efficient Discord communication automation.
 
-### 🎯 **Core Capabilities**
-- **🔗 Multi-Webhook Management** - Create, manage, and switch between multiple webhooks
-- **💬 Rich Message Types** - Text messages, rich embeds, and file attachments
+### 🎯 **Key Features**
+- **🔗 Multi-Webhook Management** - Create and manage multiple webhooks
+- **💬 Rich Message Types** - Text messages, rich embeds, and file attachments  
 - **🎨 Professional Embed Creator** - Customizable titles, colors, and descriptions
-- **⚡ Real-time Connection Status** - Live Discord API connectivity monitoring  
-- **🌙 Modern Theme System** - Dark and Light theme support
-- **💾 Auto-Save Functionality** - Persistent settings and message templates
-- **🔐 Secure Token Management** - Encrypted token storage with visibility toggle
-- **📱 Cross-Platform Support** - Works on Windows, Linux, and macOS
-
-### 🚀 **Advanced Features**
-- **Direct Webhook Creation** - Create webhooks directly from Discord channels
-- **Legacy Import System** - Import existing webhooks from files
-- **Real-time Updates** - Built-in update checker and GitHub integration
-- **Professional UI/UX** - Modern card-based interface design
-- **Error Handling** - Comprehensive error management with user-friendly messages
-- **Settings Persistence** - All configurations saved between sessions
+- **🌙 Modern GUI** - Dark/Light themes with intuitive interface
+- **⚡ Real-time Status** - Live Discord API connectivity monitoring
+- **💾 Auto-Save** - Persistent settings and message templates
+- **🔐 Secure** - Local token storage with privacy protection
+- **📱 Cross-Platform** - Windows, Linux, and macOS support
 
 ---
 
-## 🌐 Official Website
+## � Installation & Setup
 
-**Experience Discord Webhook Creator Pro online!**
+### 🖥️ **Option 1: Pre-built Executable (Recommended)**
+1. Download `Discord_Webhook_Creator_Pro.exe` from [Releases](https://github.com/driizzyy/Webhook-Creator/releases/latest)
+2. Run the executable - no installation required!
+3. Follow the setup guide in our [Documentation](https://driizzyy.github.io/Webhook-Creator-Website/docs.html)
 
-🔗 **[https://driizzyy.github.io/Webhook-Creator-Website/](https://driizzyy.github.io/Webhook-Creator-Website/)**
-
-Our official website features:
-- 📊 **Real-time GitHub Stats** - Live repository information and download counts
-- 🚀 **Interactive Demo** - Try the tool's features directly in your browser
-- 📖 **Complete Documentation** - Comprehensive guides and tutorials
-- 💡 **Usage Examples** - Step-by-step implementation guides
-- 🎨 **Modern Design** - Professional Discord-themed interface
-- 📱 **Mobile Responsive** - Perfect viewing on all devices
-
----
-
-## 📦 Quick Start
-
-### Option 1: Download Pre-built Executable (Recommended)
-1. Visit our [Releases Page](https://github.com/driizzyy/Webhook-Creator/releases/latest)
-2. Download `Discord_Webhook_Creator_Pro.exe` for Windows
-3. Run the executable - no installation required!
-
-### Option 2: Run from Source
+### 🐍 **Option 2: From Source**
 ```bash
-# Clone the repository
 git clone https://github.com/driizzyy/Webhook-Creator.git
 cd Webhook-Creator
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Run the application
 python main.py
 ```
 
-### Requirements
-- **Python 3.7+** (for source installation)
-- **Internet connection** for Discord API access
-- **Discord account** with appropriate permissions
+**Need help?** Check our [Complete Installation Guide](https://driizzyy.github.io/Webhook-Creator-Website/docs.html#installation) with detailed instructions for all platforms.
 
 ---
 
-## 🎮 How to Use
+## � Getting Started
 
-### 1. 🔑 **Initial Setup**
-1. **Launch the application**
-2. **Configure your Discord token** in the Settings tab
-3. **Add a Channel ID** where you want to send messages
-4. **Test connection** using the refresh button
+1. **Get your Discord token** - [Follow our guide](https://driizzyy.github.io/Webhook-Creator-Website/docs.html#quick-start)
+2. **Configure the application** - Add your token and channel ID
+3. **Create webhooks** - Use the built-in webhook creator
+4. **Send messages** - Choose from text, embeds, or file attachments
 
-### 2. 🎯 **Creating Webhooks**
-```
-🔗 Method 1: Direct Creation
-→ Enter your Discord token and target channel ID
-→ Click "Create Webhook" button
-→ Webhook is automatically created and saved
-
-📁 Method 2: Import Existing
-→ Place webhook URL in webhook.txt file
-→ Application automatically imports on startup
-→ Webhook appears in dropdown selection
-```
-
-### 3. 💬 **Sending Messages**
-
-#### **Text Messages**
-- Select "📝 Text Message" type
-- Enter your content in the message box
-- Optionally enable "@everyone" tagging
-- Click "🚀 Send Message"
-
-#### **Rich Embeds** (Recommended)
-- Select "📋 Rich Embed" type  
-- Choose your webhook from dropdown
-- Customize embed title and color
-- Add your message content
-- Send via webhook for professional appearance
-
-#### **File Attachments**
-- Select "📎 File Attachment" type
-- Message sends with attached configuration files
-- Perfect for sharing settings or logs
-
-### 4. ⚙️ **Advanced Configuration**
-- **Theme Switching**: Choose between Dark/Light themes
-- **Auto-Save**: Enable automatic saving of messages and settings
-- **Connection Monitoring**: Real-time Discord API status
-- **Update Management**: Built-in update checker and downloader
+**For detailed setup instructions, visit our [� Documentation Center](https://driizzyy.github.io/Webhook-Creator-Website/docs.html)**
 
 ---
 
-## 🏗️ Architecture & Design
+## 📚 Documentation & Support
 
-### **Technology Stack**
-- **Frontend**: Python Tkinter with custom styling
-- **Backend**: Discord API v9 integration
-- **Networking**: Requests library for HTTP communications
-- **Threading**: Asynchronous operations for UI responsiveness
-- **Storage**: JSON-based configuration management
+### **📖 Complete Documentation Available**
+Our comprehensive documentation covers everything you need:
 
-### **Project Structure**
-```
-Discord-Webhook-Creator-Pro/
-├── main.py                 # Core application logic
-├── config.json            # Application configuration
-├── webhooks.json          # Webhook storage
-├── gui_settings.json      # UI preferences
-├── requirements.txt       # Python dependencies
-├── discord_tool.spec      # PyInstaller build configuration
-└── README.md              # This documentation
-```
+- **🚀 [Quick Start Guide](https://driizzyy.github.io/Webhook-Creator-Website/docs.html#quick-start)** - Get running in 5 minutes
+- **📦 [Installation Instructions](https://driizzyy.github.io/Webhook-Creator-Website/docs.html#installation)** - Multiple installation methods
+- **📖 [Complete Usage Guide](https://driizzyy.github.io/Webhook-Creator-Website/docs.html#usage-guide)** - All features explained
+- **❓ [FAQ (25+ Questions)](https://driizzyy.github.io/Webhook-Creator-Website/docs.html#faq)** - Common questions answered
+- **� [Troubleshooting](https://driizzyy.github.io/Webhook-Creator-Website/docs.html#troubleshooting)** - Fix common issues
+- **⚡ [Advanced Features](https://driizzyy.github.io/Webhook-Creator-Website/docs.html#advanced)** - Power user tips
 
-### **Key Components**
-- **🖥️ GUI Engine**: Modern tkinter interface with custom themes
-- **🔌 API Handler**: Discord API v9 communication layer  
-- **💾 Config Manager**: JSON-based settings persistence
-- **🎨 Theme System**: Dynamic UI styling and color schemes
-- **🔄 Update System**: GitHub API integration for version management
+### **🆘 Need Help?**
+- 📚 **[Read the Documentation](https://driizzyy.github.io/Webhook-Creator-Website/docs.html)** (Comprehensive guides and FAQ)
+- � **[Report Issues](https://github.com/driizzyy/Webhook-Creator/issues)** (Bug reports and feature requests)
+- 💬 **[GitHub Discussions](https://github.com/driizzyy/Webhook-Creator/discussions)** (Community support)
 
 ---
 
-## 🎨 Screenshots & Interface
+## 🎨 Screenshots
 
-### **Main Interface - Dark Theme**
-- Modern card-based layout design
-- Professional Discord color scheme
-- Intuitive navigation with tabbed interface
-- Real-time connection status monitoring
+<div align="center">
 
-### **Message Creator**
-- Multi-type message support (Text/Embed/File)
-- Rich embed customization options
-- Live preview capabilities
-- Webhook selection and management
+**Modern Interface with Dark/Light Themes**
 
-### **Settings & Configuration**  
-- Theme switching (Dark/Light modes)
-- Token management with security features
-- Auto-save preferences
-- Advanced configuration options
+*Professional Discord-themed GUI with intuitive navigation*
+
+**Rich Embed Creator**
+
+*Professional webhook management with customizable embeds*
+
+</div>
 
 ---
 
-## 📚 Documentation
+## 🔧 Technical Details
 
-### **Discord API Integration**
-This tool utilizes Discord's official Webhook API for embed messages, ensuring full compliance with Discord's Terms of Service. Unlike selfbot solutions, webhook integration is officially supported and recommended by Discord for embed messaging.
+- **Language**: Python 3.7+
+- **GUI Framework**: Tkinter with custom styling
+- **API Integration**: Discord API v9
+- **Platforms**: Windows, Linux, macOS
+- **Dependencies**: Listed in `requirements.txt`
 
-### **Webhook vs Direct API**
-- **Webhooks**: Perfect for rich embeds, custom avatars, and professional appearance
-- **Direct API**: Traditional text messages using user tokens
-- **File Attachments**: Seamless file sharing through Discord's upload system
-
-### **Security & Best Practices**
-- **Token Encryption**: User tokens stored with security measures
-- **Rate Limiting**: Built-in protection against API abuse
-- **Error Handling**: Comprehensive error management and user feedback
-- **Privacy**: No data collection or external reporting
-
----
-
-## 🔧 Advanced Configuration
-
-### **Custom Embed Colors**
-```
-Hex Color Examples:
-• Discord Purple: #5865F2
-• Success Green: #57F287  
-• Warning Yellow: #FEE75C
-• Error Red: #ED4245
-• Custom: Any valid hex code
-```
-
-### **Webhook Management**
-- **Multi-webhook Support**: Manage unlimited webhooks
-- **Auto-detection**: Automatic webhook discovery and validation
-- **Backup & Restore**: Export/import webhook configurations
-- **Cleanup Tools**: Remove outdated or invalid webhooks
-
-### **Performance Optimization**
-- **Asynchronous Operations**: Non-blocking UI during API calls
-- **Connection Pooling**: Efficient HTTP connection management  
-- **Memory Management**: Optimized resource usage
-- **Startup Optimization**: Fast application loading times
-
----
-
-## 🚀 Building from Source
-
-### **Development Setup**
-```bash
-# Clone repository
-git clone https://github.com/driizzyy/Webhook-Creator.git
-cd Webhook-Creator
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install development dependencies
-pip install -r requirements.txt
-pip install pyinstaller  # For building executables
-
-# Run in development mode
-python main.py
-```
-
-### **Building Executable**
-```bash
-# Using provided spec file (recommended)
-pyinstaller discord_tool.spec
-
-# Manual build
-pyinstaller --onefile --windowed --name "Discord_Webhook_Creator_Pro" main.py
-
-# Output location
-./dist/Discord_Webhook_Creator_Pro.exe
-```
-
-### **Build Configuration**
-The included `discord_tool.spec` file provides optimized build settings:
-- **Single file executable** for easy distribution
-- **No console window** for clean user experience  
-- **Icon and metadata** inclusion
-- **Dependency optimization** for smaller file size
+**Architecture details and development info available in our [Documentation](https://driizzyy.github.io/Webhook-Creator-Website/docs.html#advanced)**
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Here's how you can help:
+We welcome contributions! Here's how you can help:
 
-### **Ways to Contribute**
-- 🐛 **Bug Reports**: Found an issue? Let us know!
-- 💡 **Feature Requests**: Have ideas for improvements?
-- 🔧 **Code Contributions**: Submit pull requests
-- 📚 **Documentation**: Help improve our guides
-- 🌟 **Star the Repository**: Show your support!
+- 🌟 **Star this repository** to show support
+- 🐛 **Report bugs** via GitHub Issues
+- 💡 **Suggest features** in GitHub Discussions
+- 🔧 **Submit pull requests** for improvements
+- 📚 **Improve documentation** 
 
-### **Development Guidelines**
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
+See our [Documentation](https://driizzyy.github.io/Webhook-Creator-Website/docs.html) for development setup instructions.
 
 ---
 
 ## 📋 Changelog
 
 ### **Version 2.0 - Professional Edition** 🎉
-- ✨ **Complete UI Overhaul** - Modern card-based interface
-- 🔗 **Multi-webhook Management** - Create and manage multiple webhooks  
-- 🎨 **Theme System** - Dark/Light theme support
-- ⚡ **Performance Improvements** - Faster startup and operation
-- 🔐 **Enhanced Security** - Improved token management
-- 📱 **Cross-platform Support** - Windows, Linux, macOS compatibility
-- 🚀 **Auto-updater** - Built-in update system
-- 💾 **Settings Persistence** - Save preferences between sessions
-
-### **Version 1.x - Legacy**
-- Basic webhook functionality
-- Simple text message sending
-- Basic GUI interface
-
----
-
-## 🆘 Support & Help
-
-### **Need Help?**
-- 🌐 **Visit**: [Official Website](https://driizzyy.github.io/Webhook-Creator-Website/)
-- 📚 **Read**: [Documentation](#documentation)  
-- 🐛 **Report**: [GitHub Issues](https://github.com/driizzyy/Webhook-Creator/issues)
-- 💬 **Discuss**: [GitHub Discussions](https://github.com/driizzyy/Webhook-Creator/discussions)
-
-### **Common Solutions**
-- **Connection Issues**: Verify token and channel permissions
-- **Webhook Errors**: Check webhook URL validity and server permissions
-- **UI Problems**: Try switching themes or restarting application
-- **Performance**: Close unnecessary applications and check internet connection
+- ✨ Complete UI overhaul with modern design
+- 🔗 Multi-webhook management system
+- 🎨 Dark/Light theme support
+- ⚡ Enhanced performance and stability
+- � Improved security features
+- � Cross-platform compatibility
+- 💾 Settings persistence
 
 ---
 
@@ -328,36 +140,15 @@ We welcome contributions from the community! Here's how you can help:
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-### **What this means:**
-- ✅ **Commercial Use** - Use in commercial projects
-- ✅ **Modification** - Modify the source code
-- ✅ **Distribution** - Distribute the software  
-- ✅ **Private Use** - Use for personal projects
-- ❌ **Liability** - No warranty provided
-- ❌ **Trademark Use** - Cannot use project trademarks
-
 ---
 
 ## 👨‍💻 Creator
 
 **Created with ❤️ by [driizzyy](https://github.com/driizzyy)**
 
-### **Connect with the Developer**
-- 🔗 **GitHub**: [@driizzyy](https://github.com/driizzyy)
 - 🌐 **Website**: [https://driizzyy.github.io/Webhook-Creator-Website/](https://driizzyy.github.io/Webhook-Creator-Website/)
-- 📧 **Issues**: [GitHub Issues Page](https://github.com/driizzyy/Webhook-Creator/issues)
-
----
-
-## 🌟 Show Your Support
-
-If you find Discord Webhook Creator Pro useful, please consider:
-
-- ⭐ **Starring this repository**
-- 🍴 **Forking for your own projects**
-- 📢 **Sharing with friends and colleagues**
-- 🐛 **Reporting bugs and suggesting features**
-- 💬 **Joining our community discussions**
+- � **GitHub**: [@driizzyy](https://github.com/driizzyy)
+- 📚 **Documentation**: [Complete Docs](https://driizzyy.github.io/Webhook-Creator-Website/docs.html)
 
 ---
 
@@ -367,10 +158,8 @@ If you find Discord Webhook Creator Pro useful, please consider:
 *Professional webhook management made simple*
 
 ![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
-![GitHub Stars](https://img.shields.io/github/stars/driizzyy/Webhook-Creator?style=for-the-badge&logo=github)
-![GitHub Downloads](https://img.shields.io/github/downloads/driizzyy/Webhook-Creator/total?style=for-the-badge&logo=github)
 
-**[🌐 Visit Official Website](https://driizzyy.github.io/Webhook-Creator-Website/)**
+**[🌐 Official Website](https://driizzyy.github.io/Webhook-Creator-Website/) | [📚 Documentation](https://driizzyy.github.io/Webhook-Creator-Website/docs.html) | [📥 Download](https://github.com/driizzyy/Webhook-Creator/releases/latest)**
 
 ---
 
