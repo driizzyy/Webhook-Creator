@@ -81,22 +81,6 @@ Our comprehensive documentation covers everything you need:
 
 ---
 
-## 🎨 Screenshots
-
-<div align="center">
-
-**Modern Interface with Dark/Light Themes**
-
-*Professional Discord-themed GUI with intuitive navigation*
-
-**Rich Embed Creator**
-
-*Professional webhook management with customizable embeds*
-
-</div>
-
----
-
 ## 🔧 Technical Details
 
 - **Language**: Python 3.7+
